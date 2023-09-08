@@ -1,0 +1,72 @@
+   0 cd/home
+   1 mkdir home
+   2 cd/home
+   3 cd /home
+   4 mkdir animals
+   5 cd/animals
+   6 cd /animals
+   7 cd /animals/
+   8 ls home
+   9 ls / home
+  10 mkdir/home/animals
+  11 mkdir /home/animals/
+  12 cd
+  13 cd /home
+  14 cd
+  15 cd /home/animals
+  16 cd
+  17 mkdir-p /home/animals/cats/dogs/fish
+  18 mkdir -p /home/animals/cats/dogs/fish
+  19 mkdir -p /home/animals/cats/dogs/fish/planets/humans
+  20 tree
+  21 ls
+  22 ls home
+  23 ls /home
+  24 cd /animals
+  25 ls /animals
+  26 cd/home/animals
+  27 cd /home/animals
+  28 cd /home/animals/cats
+  29 touch garfield
+  30 cd /home/animals/cats/dogs
+  31  touch pluto
+  32 tree /home
+  33 cd /opt
+  34 touch Mercury
+  35 touch Venus
+  36 touch Mars
+  37 touch Jupiter
+  38 cd/tmp
+  39 cd /tmp
+  40 touch evA
+  41 cd
+  42 mv /opt/Mercury /home/animals/ctas/dogs/fish/planets
+  43 tree /opt
+  44 cd
+  45 cd opt
+  46 ls opt
+  47 cd /opt
+  48 mv Jupiter Mars Mercury Venus planets
+  49 mv Jupiter Mars Mercury Venus home/animals/cats/dogs/fish/planets
+  50 mv opt/Jupiter Mars Mercury Venus home/animals/cats/dogs/fish/planets
+  51 mv /opt/Jupiter Mars Mercury Venus /home/animals/cats/dogs/fish/planets
+  52 tree /home
+  53 cd home
+  54 cd /home
+  55 cd /tmp
+  56 touch adam
+  57 cd
+  58 tree /tmp
+  59 mv /tmp/adam /home/animals/cats/dogs/fish/planets/humans
+  60 mv ~/tmp/evA ~/opt/eve
+  61 mv /tmp/evA /opt/eve
+  62 ls opt
+  63 ls /opt
+  64 mv /opt/eve  /home/animals/cats/dogs/fish/planets/humans
+  65 ls /home/humans
+  66 tree /humans
+  67 tree /home
+  68 history
+  69 history>tmp/history.txt
+  70 history >tmp/history.txt
+  71 history > history.txt
